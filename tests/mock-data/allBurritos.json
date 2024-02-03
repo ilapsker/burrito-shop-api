@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Test Burrito",
+        "sizeToPrice": {"regular":3,"L":4,"XL":5},
+        "options": ["black olives", "rice", "sour cream"]
+    },
+    {
+        "name": "Test Burrito 2",
+        "sizeToPrice": {"L":7},
+        "options": ["black olives", "rice", "sour cream", "guacamole"]
+    }
+]

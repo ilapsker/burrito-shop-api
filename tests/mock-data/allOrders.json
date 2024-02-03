@@ -1,0 +1,12 @@
+[
+    {
+        "totalCost": 20,
+        "items": [{
+            "name": "Test Burrito",
+            "size": "regular",
+            "price": 3,
+            "quantity": 2,
+            "options": ["black olives", "rice", "sour cream"]
+        }]
+    }
+]
