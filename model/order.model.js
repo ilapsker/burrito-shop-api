@@ -1,8 +1,9 @@
+const { ObjectId } = require("bson");
 const mongoose = require("mongoose");
 
 const OrderSchema = mongoose.Schema({
     totalCost: {
-        type: String,
+        type: Number,
         required: true
     },
     items: [{
@@ -11,7 +12,7 @@ const OrderSchema = mongoose.Schema({
             required: true
         },
         size: {
-            type: Number,
+            type: String,
             required: true
         },
         price: {

@@ -1,12 +1,31 @@
 [
     {
-        "totalCost": 20,
+        "totalCost": 11,
+        "items": [
+            {
+                "name": "Test Burrito",
+                "size": "regular",
+                "price": 3,
+                "quantity": 2,
+                "options": ["black olives", "rice", "sour cream"]
+            },
+            {
+                "name": "Test Burrito",
+                "size": "XL",
+                "price": 5,
+                "quantity": 1,
+                "options": ["sour cream"]
+            }
+        ]
+    }, 
+    {
+        "totalCost": 4,
         "items": [{
-            "name": "Test Burrito",
-            "size": "regular",
-            "price": 3,
-            "quantity": 2,
+            "name": "Test Burrito 2",
+            "size": "L",
+            "price": 4,
+            "quantity": 1,
             "options": ["black olives", "rice", "sour cream"]
         }]
-    }
+    }   
 ]
